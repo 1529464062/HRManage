@@ -75,6 +75,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="App.config" />
     <None Include="bin\Debug\HRManage.exe.config" />
     <None Include="bin\Debug\HRManage.vshost.exe.config" />
     <None Include="bin\Debug\HRManage.vshost.exe.manifest" />

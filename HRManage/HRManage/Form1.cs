@@ -18,7 +18,11 @@ namespace HRManage
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            Class1 cla=new Class1();
+            string userName = textBox1.Text.Trim();
+            string userPassword = textBox2.Text.Trim();
+            string userType = textBox3.Text.Trim();                        
+            MessageBox.Show(cla.returnMD5Value(userName, userPassword, userType));
         }
     }
 }
